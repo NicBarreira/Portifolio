@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form action="salvar.php" method="post">
+<div class="login-card">
+  <div class="top-row">
+    <img id="foto" src="/Portifolio/assets/masculino.png" alt="Foto de perfil" class="profile-pic">
+    <div class="switch-mini">
+      <button id="masc" class="mini-btn active" onclick="selecionarMini('masc')">M</button>
+      <button id="fem" class="mini-btn" onclick="selecionarMini('fem')">F</button>
+      <input type="hidden" name="gender" id="gender">
+    </div>
+  </div>
+
+  <div class="input-group" >
+    <i class="icon user-icon"></i>
+    <input type="text" name="username" placeholder="Nome: " >
+  </div>
+
+  <div class="input-group">
+    <i class="icon lock-icon"></i>
+    <input type="email" name="email" placeholder="E-mail" >
+  </div>
+  <a href="/Portifolio/home-page/index.html" class="login-btn">Sign In</a>
+
+    </form>
+
+  
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
